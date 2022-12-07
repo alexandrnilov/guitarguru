@@ -1,0 +1,142 @@
+footer {
+	width: 100%;
+	justify-content: center;
+	margin-top: 60px;
+}
+footer,.my-footer,.f-logo,.f-menu,.f-main,
+.f-right{
+  display: flex;
+}
+.my-footer{
+  flex-direction: column;
+  background-color: #1d4359;
+	color: #fff;
+  padding: 0 30px;
+}
+.f-cont{
+  display: flex;
+  justify-content: space-between;
+}
+.f-logo,.f-main{
+	align-items: center;
+}
+.f-left,.f-centre{
+  font-size: inherit;
+}
+.f-left{
+  width: auto;
+}
+.f-menu,.f-main,.f-right{
+	flex-direction: column;
+}
+.f-logo{
+	color: #fff;
+	margin-top: 20px;
+}
+.f-logo img{
+	height: 40px;
+	margin-right: 10px;
+}
+.f-logo>div{
+	font-size: 1.2em;
+	font-weight: 300;
+}
+.f-logo span{
+	font-weight: 700;
+}
+.f-menu{
+  margin-left: 50px;
+}
+.f-right{
+  margin-right: 50px;
+  width: auto;
+}
+.f-menu,.f-right{
+  font-size: 0.8em;
+}
+.f-menu h1{
+	margin: 10px 0;
+	font-weight: 400;
+  font-size: inherit;
+}
+.f-menu a{
+	text-decoration: underline;
+	color: #fff;
+	padding: 4px 0;
+	font-weight: 300;
+  font-size: 0.7em;
+  width: auto;
+}
+.f-centre {
+  display: flex;
+  justify-content: center;
+	margin: 18px 0 40px 0;
+	padding: 0 10px;
+  width: 380px;
+}
+.f-main{
+  width: 100%;
+}
+.f-right{
+	text-align: left;
+}
+.f-right h1{
+	margin-bottom: 12px;
+	margin-top: 10px;
+	font-weight: 400;
+}
+.f-right a{
+	text-decoration: underline;
+	color: #fff;
+	padding: 4px 0;
+	font-weight: 300;
+  font-size: 0.6em;
+}
+.f-main img{
+  height: 1.5em;
+}
+#main-form-last{
+    margin: auto;
+}
+@media screen and (max-width: 991px){
+  .f-centre {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 895px){
+	footer{
+		margin-top: 40px;
+	}
+  .f-menu {
+    margin-left: 0;
+  }
+  .f-right{
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 654px){
+  .my-footer{
+    padding: 0 20px;
+  }
+  .f-cont{
+    justify-content: space-around;
+  }
+	.f-centre{
+		display: none;
+	}
+	.f-left{
+		width: auto;
+    margin-left: 0;
+    margin-bottom: 20px;
+	}
+	.f-logo{
+		margin-left: 0;
+	}
+	.f-menu{
+		margin-left: 0;
+	}
+	.f-right{
+		width: auto;
+    margin-right: 0;
+	}
+}

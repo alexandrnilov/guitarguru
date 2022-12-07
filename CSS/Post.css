@@ -1,0 +1,12 @@
+.post-viewer{
+  display: flex;
+  flex-direction: column;
+  margin: 120px 60px 60px 60px;
+}
+.post_section{
+  display: flex;
+  justify-content: flex-start;
+}
+.post_section div{
+  width: 100%;
+}
